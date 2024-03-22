@@ -30,7 +30,7 @@ color: red;
     display: flex;
     margin-top: 30px;
 }
-#part1{
+.part1{
     display: flex;
 }
 #info{
