@@ -1,3 +1,4 @@
+@media screen and (min-width: 1024px) {
 #conheca{
     background: rgba(10, 10, 10, 0.2);
     border-radius: 16px;
@@ -21,4 +22,66 @@
     text-align: center;
     margin-top: 20px;
     margin-left: 200px;
+    
+}
+li{
+    font-size: 40px;
+}}
+@media screen and (min-Width:767px)and (max-width: 1023px) {
+    #conheca{
+        background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 600px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+    #principios{
+        background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 600px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 130px;
+    }
+    li{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #conheca{
+        background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+    #principios{
+        background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 300x;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: px;
+    }
+    li{
+        font-size: 20px;
+    }
 }

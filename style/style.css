@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px) {
 body{
     background-color: rgb(182, 150, 150);
     color: white;
@@ -8,27 +9,29 @@ header{
 }
 #nanos{
     display: flex;
-    margin-left: 100px;
-    margin-right: 800px;
+    margin-left: 50px;
+    margin-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #na{
    color: red;
+   font-size: 20px;
 }
 #nos{
     color: green;
+    font-size: 20px;
 }
 a{
     margin-right: 6px;
    color: green;
-    font-size: 20px;
+    font-size: 15px;
 }
 a:hover{
 color: red;
 }
 #links{
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .part1{
     display: flex;
@@ -43,17 +46,19 @@ border: 5px solid rgba(0, 0, 0, 0.3);
 width: 400px;
 text-align: center;
 margin-top: 20px;
-margin-left: 60px;
+margin-left: 5px;
 }
-#txt{
-    font-size: 40px;
+.txt{
+    font-size: 10px;
 }
 p{
-    font-size: 30px;
+    font-size: 15px;
 }
 #imgNanos{
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 2.5px;
+    width: 200px;
+   
 }
 #titulos{
     background: rgba(10, 10, 10, 0.2);
@@ -62,8 +67,247 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 5px solid rgba(0, 0, 0, 0.3);
-width: 900px;
+width: 300px;
 text-align: center;
 margin-top: 20px;
-margin-left: 200px;
+margin-left: 40px ;
 }
+#part3{
+    display: flex;
+}
+#participa{
+background: rgba(10, 10, 10, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 5px solid rgba(0, 0, 0, 0.3);
+width: 200px;
+text-align: center;
+margin-top: 20px;
+margin-left: 5px;
+}
+#familia{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+#nome{
+    font-size: 20px;
+}
+}
+
+
+
+/*tablet*/
+@media screen and (min-Width:767px)and (max-width: 1023px) {
+    body{
+        background-color: rgb(182, 150, 150);
+        color: white;
+    }
+    header{
+         background-color: black;
+       display: flex;
+    }
+    #nanos{
+        display: flex;
+        margin-left: 150px;
+        margin-right: 200px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #na{
+       color: red;
+       font-size: 40px;
+    }
+    #nos{
+        color: green;
+        font-size: 40px;
+    }
+    a{
+        margin-right: 6px;
+       color: green;
+        font-size: 15px;
+    }
+    a:hover{
+    color: red;
+    }
+    #links{
+        display: flex;
+        margin-top: 40px;
+    }
+    .part1{
+        display: flex;
+    }
+    #info{
+    background: rgba(10, 10, 10, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    .txt{
+        font-size: 40px;
+    }
+    p{
+        font-size: 30px;
+    }
+    #imgNanos{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 400px;
+       
+    }
+    #titulos{
+        background: rgba(10, 10, 10, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 60px ;
+    }
+    #part3{
+        display: flex;
+    }
+    #participa{
+    background: rgba(10, 10, 10, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    #familia{
+        width: 300px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    #nome{
+        font-size: 20px;
+    }
+    }
+    
+    
+    
+    
+    
+    
+    @media screen and (min-width: 1024px) 
+    {
+        body{
+            background-color: rgb(182, 150, 150);
+            color: white;
+        }
+        header{
+             background-color: black;
+           display: flex;
+        }
+        #nanos{
+            display: flex;
+            margin-left: 200px;
+            margin-right: 500px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        #na{
+           color: red;
+           font-size: 50px;
+        }
+        #nos{
+            color: green;
+            font-size: 50px;
+        }
+        a{
+            margin-right: 6px;
+           color: green;
+            font-size: 25px;
+        }
+        a:hover{
+        color: red;
+        }
+        #links{
+            display: flex;
+            margin-top: 40px;
+        }
+        .part1{
+            display: flex;
+        }
+        #info{
+        background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 700px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        }
+        .txt{
+            font-size: 60px;
+        }
+        h1{
+            font-size: 60px;
+        }
+        p{
+            font-size: 50px;
+        }
+        #imgNanos{
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 500px;
+           
+        }
+        #titulos{
+            background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 1000px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 90px ;
+        }
+        #part3{
+            display: flex;
+        }
+        #participa{
+        background: rgba(10, 10, 10, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        width: 500px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 5px;
+        }
+        #familia{
+            width: 800px;
+            margin-top: 40px;
+            margin-left: 15px;
+        }
+        
+        #nome{
+            font-size: 20px;
+        }
+        } 
+    
+
+   
